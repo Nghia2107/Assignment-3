@@ -1,0 +1,98 @@
+.nav_info {
+  display: block;
+  height: auto;
+}
+
+.nav_info a:link,
+a:visited {
+  display: block;
+  text-align: left;
+  padding: 10px;
+}
+
+.container_info {
+  display: grid;
+  grid-column: 1;
+}
+
+.item-pro {
+  display: none;
+}
+
+#target {
+  background-color: #e9ecef;
+}
+
+.row {
+  width: 576px;
+}
+
+.container {
+  padding: 0;
+}
+
+.two-card {
+  display: block;
+}
+.two-card .card {
+  width: 50%;
+  border-bottom: 2px solid;
+}
+
+.two-card .card:last-child {
+  border: none;
+}
+
+#project .section-content {
+  display: block;
+}
+
+/* digital */
+/* @media screen and (max-width: 768px) {
+  
+} */
+
+.grid-container {
+  display: block;
+}
+
+.project {
+  display: block;
+}
+
+.all_member i {
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.member01,
+.member02,
+.member03,
+.member04 {
+  display: block;
+}
+
+.all_scopes {
+  display: block;
+}
+
+.all_goal i {
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.goal_1,
+.goal_2,
+.goal_3 {
+  display: block;
+}
+
+.all_primary i {
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.primary1,
+.primary2 {
+  display: block;
+}

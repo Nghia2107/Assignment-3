@@ -1,0 +1,78 @@
+.item-pro {
+  display: none;
+}
+#about {
+  display: grid;
+  grid-column: 2;
+  grid-row: 1;
+}
+.container {
+  display: grid;
+}
+
+#target {
+  font-size: 16px;
+}
+#info {
+  font-size: 16px;
+  padding-right: 30px;
+}
+
+.study_icon {
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #f7f7f7;
+  border: none;
+}
+
+/* digital */
+.grid-container {
+  display: block;
+}
+
+.grid_1,
+.grid_2 {
+  margin-bottom: 20px;
+}
+project {
+  display: block;
+}
+
+.all_member i {
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.member01,
+.member02,
+.member03,
+.member04 {
+  display: block;
+}
+
+.all_scopes {
+  display: block;
+}
+
+.all_goal i {
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.goal_1,
+.goal_2,
+.goal_3 {
+  display: block;
+}
+
+.all_primary i {
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.primary1,
+.primary2 {
+  display: block;
+}
