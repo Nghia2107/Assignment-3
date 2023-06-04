@@ -23,10 +23,6 @@ a:visited {
   background-color: #e9ecef;
 }
 
-.row {
-  width: 576px;
-}
-
 .container {
   padding: 0;
 }
@@ -95,4 +91,20 @@ a:visited {
 .primary1,
 .primary2 {
   display: block;
+}
+
+.container_info {
+  width: 100%;
+}
+
+.container_info .row #target {
+  width: 100%;
+}
+
+#info {
+  width: 100%;
+}
+
+#certificate {
+  padding: 0;
 }

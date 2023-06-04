@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+.cv-all {
+  width: 100%;
+}
+
 .bg-grey {
   background: #f7f7f7;
 }
@@ -53,11 +57,16 @@ button {
   padding-bottom: 20px;
 }
 /* study */
+.job {
+  margin-bottom: 30px;
+}
+
 .study {
   border: 1px solid #ced4da;
   margin-right: 30px;
   padding: 30px;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
+  height: 100%;
 }
 
 .study_exp {
@@ -101,6 +110,7 @@ button {
 
 #target {
   padding: 100px 100px 100px 100px;
+  width: 50%;
 }
 
 #target p {
@@ -139,6 +149,11 @@ button {
   text-align: center;
   margin: 20px;
 }
+
+/* #info {
+  width: 50%;
+} */
+
 .nav_info > * {
   /* flex: 1; */
   text-align: center;
@@ -225,38 +240,39 @@ p {
   gap: 100px;
 } */
 
-.one-card {
-  margin-top: 40px;
-}
-
-.two-card {
+#certificate .section-content {
   display: flex;
-  border-bottom: 2px solid;
-}
 
-.two-card .card:last-child {
-  border-left: 2px solid;
+  flex-basis: 50%;
+  flex-wrap: wrap;
 }
 
 .card_border {
-  margin-left: 20px;
 }
 .card {
   display: flex;
-  margin-right: 150px;
-  margin-bottom: 40px;
+  width: 100%;
+  flex-basis: 50%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
-.card:last-child {
-  margin-right: 70px;
+.row:last-child {
+  margin-top: 40px;
 }
+/* .card:last-child {
+  margin-right: 70px;
+} */
 
 .card img {
-  width: 200px;
+  width: 100%;
 }
-
+.container_info .row {
+  margin: 0;
+}
 .card-text {
-  margin-left: 30px;
 }
 
 .card-text h4 {
@@ -276,6 +292,7 @@ p {
   display: flex;
   gap: 10px;
   padding: 10px;
+  margin-bottom: 0;
 }
 .card-title,
 .content,
